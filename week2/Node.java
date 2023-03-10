@@ -43,6 +43,7 @@ public class Node<T> {
         node.next = new Node<>(1001);
         System.out.println(node.next);  // Node{element=1001, next=null}
         System.out.println(node.next.next);  //null
+        System.out.println("nihao");
     }
 }
 
